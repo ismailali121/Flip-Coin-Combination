@@ -108,7 +108,7 @@ THT_Percentage=`expr $THT_Count/$noOfFlips | bc -l`
 HTT_Percentage=`expr $HTT_Count/$noOfFlips | bc -l`
 TTT_Percentage=`expr $TTT_Count/$noOfFlips | bc -l`
 
-dictionary[H]="$tailPercentage"
+dictionary[H]="$headPercentage"
 dictionary[T]="$tailPercentage"
 
 dictionary[HH]="$headHeadPercentage"
